@@ -167,14 +167,15 @@ section h2{
    GALERIA
 ========================== */
 
-.galeria{
-    display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(150px,1fr));
-    gap:20px;
+.galeria {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 20px;
 }
+
 .galeria img {
   width: 100%;
-  max-height: 150px; /* Reduza este valor se quiser as fotos ainda menores (ex: 180px ou 200px) */
+  max-height: 170px;
   object-fit: cover;
   border-radius: 15px;
   transition: .4s;
