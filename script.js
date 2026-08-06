@@ -105,3 +105,21 @@ botaoTopo.addEventListener("click", () => {
     });
 
 });
+
+// ========================== LIGHTBOX ==========================
+const lightbox = document.getElementById('lightbox');
+const imagemLightbox = document.getElementById('imagemLightbox');
+const fotosGaleria = document.querySelectorAll('.galeria img');
+
+if (lightbox && imagemLightbox && fotosGaleria.length > 0) {
+  fotosGaleria.forEach(foto => {
+    foto.addEventListener('click', () => {
+      imagemLightbox.src = foto.src;
+      lightbox.style.display = 'flex';
+    });
+  });
+
+  lightbox.addEventListener('click', () => {
+    lightbox.style.display = 'none';
+  });
+}
