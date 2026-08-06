@@ -167,20 +167,23 @@ section h2{
    GALERIA
 ========================== */
 
-.galeria {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-  gap: 20px;
+/* GALERIA - Forçar tamanho pequeno em todas as fotos */
+.galeria img, 
+.galeria-grid img, 
+.galeria-fotos img, 
+.galeria-item img {
+  width: 100% !important;
+  max-height: 150px !important; /* Limita a altura para deixar a foto bem menor */
+  object-fit: cover !important;  /* Impede que a foto fique esticada */
+  border-radius: 12px;
 }
 
-.galeria img {
-  width: 100%;
-  max-height: 170px;
-  object-fit: cover;
-  border-radius: 15px;
-  transition: .4s;
-  cursor: pointer;
-  box-shadow: 0 10px 25px rgba(0,0,0,.15);
+.galeria, 
+.galeria-grid, 
+.galeria-fotos {
+  display: grid !important;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)) !important; /* Faz caber mais fotos lado a lado */
+  gap: 15px !important;
 }
 .foto{
     height:260px;
