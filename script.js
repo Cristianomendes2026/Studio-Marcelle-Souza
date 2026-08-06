@@ -3,6 +3,18 @@
 // script.js
 // =========================
 
+// Menu Mobile (Hambúrguer)
+document.addEventListener('DOMContentLoaded', () => {
+  const menuToggle = document.querySelector('.menu-toggle');
+  const navUl = document.querySelector('nav ul');
+
+  if (menuToggle && navUl) {
+    menuToggle.addEventListener('click', () => {
+      navUl.classList.toggle('active');
+    });
+  }
+});
+
 // Rolagem suave para os links do menu
 document.querySelectorAll('a[href^="#"]').forEach(link => {
     link.addEventListener("click", function (e) {
