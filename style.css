@@ -38,23 +38,19 @@ section h2 { text-align: center; color: #b88a56; font-size: 36px; margin-bottom:
 .card h3 { color: #b88a56; margin-bottom: 15px; font-size: 22px; }
 .card p { color: #666; font-size: 16px; }
 
-/* ========================== GALERIA (2 COLUNAS) ========================== */
+/* ========================== GALERIA NO CELULAR (2 COLUNAS) ========================== */
   #galeria .galeria {
     display: grid !important;
-    grid-template-columns: repeat(2, 1fr) !important; /* Força exatamente 2 fotos por linha */
-    gap: 12px !important;
-    max-width: 900px;
-    margin: 0 auto;
-    padding: 0 10px;
+    grid-template-columns: repeat(2, 1fr) !important;
+    gap: 10px !important;
+    padding: 0 10px !important;
   }
 
   #galeria .galeria img {
     width: 100% !important;
-    height: 140px !important; /* Altura proporcional para 2 colunas */
+    height: 130px !important;
     object-fit: cover !important;
     border-radius: 8px !important;
-    display: block !important;
-    cursor: pointer;
   }
 /* ========================== CONTATO ========================== */
 .contato { background: #fff; text-align: center; padding: 80px 20px; }
