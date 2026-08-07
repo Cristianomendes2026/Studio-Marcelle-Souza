@@ -38,25 +38,20 @@ section h2 { text-align: center; color: #b88a56; font-size: 36px; margin-bottom:
 .card h3 { color: #b88a56; margin-bottom: 15px; font-size: 22px; }
 .card p { color: #666; font-size: 16px; }
 
-/* Forçar Miniaturas Pequenas no Celular */
-  #galeria .galeria, 
-  .galeria {
-    display: grid !important;
-    grid-template-columns: repeat(3, 1fr) !important; /* Força 3 colunas por linha */
-    gap: 6px !important;
-    padding: 0 5px !important;
-    width: 100% !important;
+/* Forçar Miniaturas Pequenas na Seção Galeria no Celular */
+  #galeria {
+    display: block !important;
   }
 
-  #galeria .galeria img, 
-  .galeria img {
-    width: 100% !important;
-    height: 90px !important; /* Altura bem pequena */
-    max-height: 90px !important;
+  #galeria img {
+    width: 30% !important; /* Coloca 3 fotos por linha */
+    max-width: 30% !important;
+    height: 90px !important; /* Altura pequena travada */
     object-fit: cover !important;
     border-radius: 6px !important;
+    margin: 3px !important;
+    display: inline-block !important;
   }
-
 /* ========================== CONTATO ========================== */
 .contato { background: #fff; text-align: center; padding: 80px 20px; }
 .contato p { margin-bottom: 30px; font-size: 18px; color: #555; }
