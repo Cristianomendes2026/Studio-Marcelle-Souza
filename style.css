@@ -77,13 +77,12 @@ nav a:hover{
 ========================== */
 
 .hero {
-    /* ... outras propriedades que você já tem (ex: padding, color, etc.) ... */
-    background-image: url('CAMINHO_PARA_SUA_IMAGEM.jpg');
-    background-size: cover; /* Faz a imagem cobrir toda a seção */
-    background-position: center; /* Centraliza a imagem */
-    background-repeat: no-repeat; /* Impede que a imagem se repita */
-    /* Você pode precisar ajustar a cor do texto para dar contraste */
-    color: #ffffff;
+  padding-top: 120px !important; /* Cria um espaço para o topo não ser coberto pelo menu */
+  background-image: url('CAMINHO_PARA_SUA_IMAGEM.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #ffffff;
 }
 
 .hero-content{
