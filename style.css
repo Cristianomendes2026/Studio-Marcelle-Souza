@@ -350,3 +350,16 @@ transition:.3s;
   border-radius: 8px;
   box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
 }
+
+/* Ajustes específicos para Celular / Telas Pequenas */
+@media (max-width: 768px) {
+  .galeria {
+    grid-template-columns: repeat(2, 1fr) !important; /* Exibe 2 fotos lado a lado no celular */
+    gap: 10px !important;
+  }
+
+  .galeria img {
+    max-height: 120px !important; /* Reduz a altura das fotos no celular */
+    object-fit: cover !important;
+  }
+}
