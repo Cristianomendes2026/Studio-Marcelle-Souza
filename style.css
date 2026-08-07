@@ -72,33 +72,18 @@ nav a:hover{
     color:#b88a56;
 }
 
-/* ==========================
-   HERO
-========================== */
-
+/* ========================== HERO ========================== */
 .hero {
-  padding-top: 120px !important; /* Cria um espaço para o topo não ser coberto pelo menu */
+  padding-top: 120px !important;
   background-image: url('CAMINHO_PARA_SUA_IMAGEM.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   color: #ffffff;
 }
-
-.hero-content{
-    max-width:800px;
-}
-
-.hero h1{
-    font-size:52px;
-    color:#b88a56;
-    margin-bottom:25px;
-}
-
-.hero p{
-    font-size:22px;
-    margin-bottom:40px;
-}
+.hero-content{max-width:800px; }
+.hero h1{font-size:52px; color:#b88a56; margin-bottom:25px; }
+.hero p{font-size:22px; margin-bottom:40px; }
 
 /* ==========================
    BOTÃO
