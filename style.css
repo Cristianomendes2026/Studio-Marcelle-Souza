@@ -312,19 +312,9 @@ transition:.3s;
 
 @media (max-width: 768px) {
   .menu-toggle { display: none; }
-  nav ul {
-    display: flex !important;
-    flex-direction: column;
-    width: 100%;
-    background: white;
-    padding: 10px 0;
-    gap: 10px;
-    text-align: center;
-  }
+  nav ul { display: flex !important; flex-direction: column; width: 100%; background: white; padding: 10px 0; gap: 10px; text-align: center; }
 }
-  nav ul.active {
-    display: flex;
-  }
+  nav ul.active { display: flex; }
 }
 
 /* ========================== LIGHTBOX ========================== */
