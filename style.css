@@ -88,39 +88,3 @@ section h2 { text-align: center; color: #b88a56; font-size: 36px; margin-bottom:
 
 }
 
-/* ========================== CONTATO ========================== */
-.contato, 
-#contato {
-  text-align: center !important;
-  display: flex !important;
-  flex-direction: column !important;
-  align-items: center !important;
-  justify-content: center !important;
-}
-
-.contato p, 
-#contato p {
-  text-align: center !important;
-}
-
-.contato .botao, 
-#contato .botao {
-  margin: 0 auto !important;
-}
-
-/* ========================== RODAPÉ ========================== */
-footer {
-  text-align: center !important;
-  display: flex !important;
-  flex-direction: column !important;
-  align-items: center !important;
-  justify-content: center !important;
-}
-
-footer .social-links, 
-footer p, 
-footer h2 {
-  text-align: center !important;
-  margin-left: auto !important;
-  margin-right: auto !important;
-}
