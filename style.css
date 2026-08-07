@@ -122,19 +122,41 @@ footer a:hover {
     padding: 0 10px;
   }
 
- /* Ajustes do Menu no Celular */
-  nav { height: auto; padding: 15px 0; flex-direction: column; }
-  .logo { margin-bottom: 15px; }
-  nav ul {
-    display: flex !important; /* Força o menu a aparecer */
-    flex-direction: column;
+/* Ajustes do Menu Compacto no Celular */
+  header {
+    position: fixed;
     width: 100%;
-    gap: 10px;
-    text-align: center;
-    background: #fff;
-    padding: 10px 0;
+    top: 0;
   }
-  .menu-toggle { display: none; } /* Mantém escondido se não houver JS para abrir/fechar */
+  nav { 
+    height: auto !important; 
+    padding: 8px 10px !important; 
+    flex-direction: column !important; 
+    align-items: center !important;
+  }
+  .logo { 
+    font-size: 20px !important; 
+    margin-bottom: 5px !important; 
+  }
+  nav ul {
+    display: flex !important; 
+    flex-direction: row !important;
+    flex-wrap: wrap !important;
+    justify-content: center !important;
+    width: 100% !important;
+    gap: 12px !important;
+    background: transparent !important;
+    padding: 2px 0 !important;
+    margin: 0 !important;
+  }
+  nav a {
+    font-size: 13px !important;
+  }
+
+  /* Reduz o topo para a capa subir e acompanhar o menu fino */
+  .hero {
+    padding-top: 110px !important; 
+  }
 
   /* Seções e Títulos */
   section { padding: 60px 0; }
