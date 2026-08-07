@@ -44,7 +44,7 @@ section h2 { text-align: center; color: #b88a56; font-size: 36px; margin-bottom:
   }
 
   #galeria img {
-    width: 30% !important; /* Coloca 3 fotos por linha */
+    width: 30% !important; /* Coloca 2 fotos por linha */
     max-width: 30% !important;
     height: 90px !important; /* Altura pequena travada */
     object-fit: cover !important;
