@@ -206,32 +206,31 @@ footer{
 /* ========================== RESPONSIVO ========================== */
 @media (max-width: 768px) {
   .hero {
-    padding-top: 140px !important;
+    padding-top: 190px !important; /* Espaço extra para o menu no celular */
   }
   .hero h1 {
-    font-size: 32px !important;
+    font-size: 28px !important;
     color: #b88a56 !important;
   }
- .hero p {
-  font-size: 18px !important;
-  color: #555555 !important;
-}
+  .hero p {
+    font-size: 16px !important;
+    color: #444444 !important; /* Cor bem escura e legível */
+  }
   nav {
     flex-direction: column;
     height: auto;
-    padding: 20px;
+    padding: 15px;
   }
   nav ul {
     display: flex !important;
     flex-direction: column;
     width: 100%;
     margin-top: 10px;
-    gap: 12px;
+    gap: 10px;
     text-align: center;
   }
-  .menu-toggle {
-    display: none;
-  }
+  .menu-toggle { display: none; }
+}
   .galeria {
     grid-template-columns: repeat(2, 1fr) !important;
     gap: 10px !important;
