@@ -42,111 +42,48 @@ section h2 { text-align: center; color: #b88a56; font-size: 36px; margin-bottom:
    GALERIA STUDIO MARCELLE SOUZA
 ========================================= */
 
+#galeria {
+    text-align: center;
+}
+
 #galeria .galeria-grid {
-    display: grid !important;
-    grid-template-columns: repeat(2, 180px) !important;
-    justify-content: center !important;
-    gap: 12px !important;
-    width: 100% !important;
-    max-width: 372px !important;
-    margin: 0 auto !important;
+    display: grid;
+    grid-template-columns: repeat(2, 180px);
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+    max-width: 370px;
+    margin: 0 auto;
 }
 
 #galeria .galeria-grid img {
-    width: 180px !important;
-    height: 110px !important;
-    max-width: 180px !important;
-    max-height: 110px !important;
-    object-fit: cover !important;
-    display: block !important;
-    margin: 0 !important;
-    padding: 0 !important;
-    border-radius: 8px !important;
-    cursor: pointer !important;
-    transition: transform 0.3s ease;
-}
-
-#galeria .galeria-grid img:hover {
-    transform: scale(1.03);
+    width: 180px;
+    height: 100px;
+    object-fit: cover;
+    display: block;
+    border-radius: 8px;
+    cursor: pointer;
 }
 
 
 /* =========================================
-   GALERIA NO CELULAR
+   GALERIA - CELULAR
 ========================================= */
 
 @media (max-width: 768px) {
 
     #galeria .galeria-grid {
-        grid-template-columns: repeat(2, 120px) !important;
-        gap: 8px !important;
-        max-width: 248px !important;
+        grid-template-columns: repeat(2, 100px);
+        gap: 6px;
+        max-width: 206px;
+        margin: 0 auto;
     }
 
     #galeria .galeria-grid img {
-        width: 120px !important;
-        height: 75px !important;
-        max-width: 120px !important;
-        max-height: 75px !important;
+        width: 100px;
+        height: 65px;
+        max-width: 100px;
+        max-height: 65px;
     }
 
 }
-/* ========================== CONTATO ========================== */
-.contato { background: #fff; text-align: center; padding: 80px 20px; }
-.contato p { margin-bottom: 30px; font-size: 18px; color: #555; }
-
-/* ========================== RODAPÉ ========================== */
-footer { background: #222; color: white; text-align: center; padding: 50px 20px; }
-footer h2 { color: #fff; margin-bottom: 10px; }
-footer p { margin-bottom: 20px; opacity: 0.8; }
-footer a { color: #b88a56 !important; text-decoration: none; margin: 0 12px; font-size: 16px; transition: 0.3s; font-weight: 500; }
-footer a:hover { color: #ffffff !important; text-decoration: underline; }
-
-/* ========================== WHATSAPP FLUTUANTE ========================== */
-.whatsapp { position: fixed; bottom: 30px; right: 30px; width: 60px; height: 60px; background: #25D366; color: white; border-radius: 50%; display: flex; justify-content: center; align-items: center; font-size: 30px; box-shadow: 2px 2px 10px rgba(0,0,0,0.2); z-index: 1000; text-decoration: none; transition: .3s; }
-.whatsapp:hover { transform: scale(1.1); }
-
-/* ========================== LIGHTBOX (GALERIA) ========================== */
-#lightbox { position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.9); display: none; justify-content: center; align-items: center; z-index: 10000; cursor: pointer; }
-#lightbox img { max-width: 90%; max-height: 85%; border-radius: 8px; box-shadow: 0 0 20px rgba(255, 255, 255, 0.1); }
-
-/* ========================== RESPONSIVO (CELULAR) ========================== */
-@media (max-width: 768px) {
-  .hero { padding-top: 110px !important; }
-  .hero h1 { font-size: 32px !important; color: #b88a56 !important; }
-  .hero p { font-size: 17px !important; color: #555555 !important; padding: 0 10px; }
-
-  header { position: fixed; width: 100%; top: 0; }
-  nav { height: auto !important; padding: 8px 10px !important; flex-direction: column !important; align-items: center !important; }
-  .logo { font-size: 20px !important; margin-bottom: 5px !important; }
-  nav ul { display: flex !important; flex-direction: row !important; flex-wrap: wrap !important; justify-content: center !important; width: 100% !important; gap: 12px !important; background: transparent !important; padding: 2px 0 !important; margin: 0 !important; }
-  nav a { font-size: 13px !important; }
-
-  section { padding: 60px 0; }
-  section h2 { font-size: 28px; margin-bottom: 30px; }
-
-/* TESTE DEFINITIVO DA GALERIA */
-
-#galeria .galeria-grid {
-    display: grid !important;
-    grid-template-columns: 100px 100px !important;
-    gap: 5px !important;
-    width: 205px !important;
-    max-width: 205px !important;
-    margin: 0 auto !important;
-    padding: 0 !important;
-}
-
-#galeria .galeria-grid img {
-    display: block !important;
-    width: 100px !important;
-    height: 60px !important;
-    max-width: 100px !important;
-    max-height: 60px !important;
-    min-width: 0 !important;
-    min-height: 0 !important;
-    object-fit: cover !important;
-    margin: 0 !important;
-    padding: 0 !important;
-}
-   
