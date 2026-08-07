@@ -71,7 +71,45 @@ section h2 { text-align: center; color: #b88a56; font-size: 36px; margin-bottom:
 ========================================= */
 
 @media (max-width: 768px) {
+   nav {
+    padding: 0 15px;
+    height: 70px;
+  }
 
+  .logo {
+    font-size: 20px; /* Reduz o tamanho do título para não quebrar linha */
+  }
+
+  .menu-toggle {
+    display: block !important; /* Exibe o ícone de menu no celular */
+  }
+
+  nav ul {
+    display: none; /* Oculta a lista de links solta na tela no celular */
+    position: absolute;
+    top: 70px;
+    left: 0;
+    width: 100%;
+    background: #ffffff;
+    flex-direction: column;
+    gap: 0;
+    box-shadow: 0 4px 10px rgba(0,0,0,.1);
+  }
+
+  nav ul.active {
+    display: flex; /* Exibe o menu quando ativado pelo botão */
+  }
+
+  nav ul li {
+    text-align: center;
+    border-bottom: 1px solid #f0f0f0;
+  }
+
+  nav a {
+    display: block;
+    padding: 15px 0;
+  }
+}
     #galeria .galeria-grid {
         grid-template-columns: repeat(2, 100px);
         gap: 6px;
