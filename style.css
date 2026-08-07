@@ -225,12 +225,15 @@ footer{
 ========================== */
 
 @media(max-width:768px){
+  .hero {
+    padding-top: 140px !important;
+  }
 
-nav{
+  nav{
     flex-direction:column;
     height:auto;
     padding:20px;
-}
+  }
 
 nav ul{
     flex-direction:column;
