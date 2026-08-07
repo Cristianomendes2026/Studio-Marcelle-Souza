@@ -17,16 +17,16 @@ nav a:hover { color: #b88a56; }
 /* Menu Mobile Toggle (Escondido por padrão) */
 .menu-toggle { display: none; font-size: 34px; cursor: pointer; color: #b88a56; background: none; border: none; }
 
-/* ========================== HERO (INÍCIO) ========================== */
+/* ========================== HERO ========================== */
 .hero {
-  padding-top: 150px; /* Espaço para o menu fixo no desktop */
-  padding-bottom: 80px;
-  background-color: #fdf8f8; /* Fundo claro */
+  padding-top: 160px !important;
+  padding-bottom: 60px !important;
+  background-color: #fdf8f8 !important; /* Cor de fundo suave caso não haja imagem */
   text-align: center;
 }
-.hero-content { max-width: 800px; margin: auto; padding: 0 20px; }
-.hero h1 { font-size: 48px; color: #b88a56; margin-bottom: 20px; line-height: 1.2; }
-.hero p { font-size: 20px; color: #555; margin-bottom: 40px; }
+.hero-content { max-width: 800px; margin: auto; }
+.hero h1 { font-size: 42px; color: #b88a56 !important; margin-bottom: 15px; }
+.hero p { font-size: 20px; color: #444444 !important; margin-bottom: 30px; }
 
 /* ========================== BOTÃO ========================== */
 .botao { display: inline-block; padding: 16px 40px; background: #b88a56; color: #fff; text-decoration: none; border-radius: 50px; transition: .3s; font-weight: 600; }
