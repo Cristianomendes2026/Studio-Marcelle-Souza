@@ -91,23 +91,23 @@ footer a:hover { color: #ffffff !important; text-decoration: underline; }
   section { padding: 60px 0; }
   section h2 { font-size: 28px; margin-bottom: 30px; }
 
- /* Forçar visualização pequena idêntica ao desktop no celular */
-  #galeria .galeria,
+ /* Forçar Miniaturas Pequenas no Celular (3 Colunas) */
+  #galeria .galeria, 
   .galeria {
     display: grid !important;
-    grid-template-columns: repeat(auto-fit, minmax(130px, 1fr)) !important;
-    gap: 12px !important;
-    padding: 0 10px !important;
+    grid-template-columns: repeat(3, 1fr) !important;
+    gap: 6px !important;
+    padding: 0 5px !important;
     width: 100% !important;
   }
 
-  #galeria .galeria img,
+  #galeria .galeria img, 
   .galeria img {
     width: 100% !important;
-    height: 120px !important;
-    max-height: 120px !important;
+    height: 85px !important;
+    max-height: 85px !important;
     object-fit: cover !important;
-    border-radius: 8px !important;
+    border-radius: 6px !important;
   }
   footer a { margin: 5px 8px; display: inline-block; }
 }
