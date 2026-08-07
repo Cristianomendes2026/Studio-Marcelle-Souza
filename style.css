@@ -74,16 +74,14 @@ nav a:hover{
 
 /* ========================== HERO ========================== */
 .hero {
-  padding-top: 120px !important;
-  background-image: url('CAMINHO_PARA_SUA_IMAGEM.jpg');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  color: #ffffff;
+  padding-top: 160px !important;
+  padding-bottom: 60px !important;
+  background-color: #fdf8f8 !important; /* Cor de fundo suave caso não haja imagem */
+  text-align: center;
 }
-.hero-content{max-width:800px; }
-.hero h1{font-size:52px; color:#b88a56; margin-bottom:25px; }
-.hero p{font-size:22px; margin-bottom:40px; }
+.hero-content { max-width: 800px; margin: auto; }
+.hero h1 { font-size: 42px; color: #b88a56 !important; margin-bottom: 15px; }
+.hero p { font-size: 20px; color: #444444 !important; margin-bottom: 30px; }
 
 /* ==========================
    BOTÃO
