@@ -247,7 +247,8 @@ nav ul{
 }
 
 .hero p{
-    font-size:18px;
+  font-size:18px !important;
+  color: #333333 !important; /* Ou #ffffff caso a imagem de fundo seja escura */
 }
 
 section h2{
