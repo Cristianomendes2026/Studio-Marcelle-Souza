@@ -63,6 +63,7 @@ section h2 { text-align: center; color: #b88a56; font-size: 36px; margin-bottom:
 #galeria .galeria img:hover {
     transform: scale(1.03);
 }
+
 /* ========================== CONTATO ========================== */
 .contato { background: #fff; text-align: center; padding: 80px 20px; }
 .contato p { margin-bottom: 30px; font-size: 18px; color: #555; }
