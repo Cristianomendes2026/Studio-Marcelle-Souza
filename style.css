@@ -205,10 +205,6 @@ footer{
     padding:35px;
 }
 
-/* ==========================
-   RESPONSIVO
-========================== */
-
 /* ========================== RESPONSIVO ========================== */
 @media (max-width: 768px) {
   .hero {
@@ -218,10 +214,10 @@ footer{
     font-size: 32px !important;
     color: #b88a56 !important;
   }
-  .hero p {
-    font-size: 18px !important;
-    color: #ffffff !important; /* Cor branca para se destacar no fundo */
-  }
+ .hero p {
+  font-size: 18px !important;
+  color: #555555 !important;
+}
   nav {
     flex-direction: column;
     height: auto;
