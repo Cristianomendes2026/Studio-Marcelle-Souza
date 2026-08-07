@@ -161,3 +161,27 @@ footer a {
   display: inline-block !important;
   margin: 5px 10px !important;
 }
+
+/* ========================== BOTÃO CENTRALIZADO ========================== */
+.botao {
+  display: block !important;
+  width: fit-content !important;
+  margin: 15px auto !important;
+  text-align: center !important;
+}
+
+/* ========================== SEÇÃO DE CONTATO ========================== */
+#contato, 
+.contato {
+  text-align: center !important;
+  width: 100% !important;
+}
+
+#contato .container,
+.contato .container {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: center !important;
+  text-align: center !important;
+}
